@@ -1,0 +1,218 @@
+$header-color: #002442;
+$button-primary-color: #0C3AD0;
+$button-hover-color: #0B32B3;
+$icons-color: #667B8D;
+$back-color: #0083ED;
+$footer-color: #3B3B3B;
+$text-color: #868686;
+$back-secondary-color: #F4F4F4;
+
+@font-face {
+    font-family: "Avenir";
+    src: url('/fonts/AvenirLTStd-Book.otf') format("opentype");
+    src: url('/fonts/AvenirLTStd-Black.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url('/fonts/Asap-Regular.otf') format("opentype");
+    src: url('/fonts/Asap-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('/fonts/Roboto-Regular.otf') format("truetype");
+    src: url('/fonts/Roboto-Bold.otf') format("truetype");
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $header-color;
+    opacity: 1;
+    z-index: 1;
+}
+.logo {
+    max-width: 134px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn-header {
+    background: $button-primary-color !important;
+    font: normal normal bold 24px/27px Asap;
+    color: #FFFFFF !important;
+    opacity: 1;
+    width: 260px;
+    height: 50px;
+}
+.btn-header:hover {
+    background: $button-hover-color !important;
+}
+.congress {
+    width: 100%;
+    background: transparent url('/img/Grupo\ 57.png') 0% 0% no-repeat padding-box;
+    padding-top: 220px;
+    color: #FFFFFF;
+}
+.congress-year {
+    font: normal normal 900 24px/33px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.congress-title {
+    font: normal normal bold 56px/64px Asap;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.reg-text {
+    text-align: left;
+    font: normal normal normal 24px/32px Asap;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.congress-singin {
+    text-align: left;
+    font: normal normal 900 24px/33px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.objective {
+    background: transparent url('/img/Grupo\ 56.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.itinerary {
+    background: $back-secondary-color 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    padding-top: 55px;
+}
+.itinerary-txt{
+    font: normal normal 900 24px/33px Avenir;
+    letter-spacing: 0px;
+    color: $text-color;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.itinerary-title {
+    font: normal normal bold 56px/64px Asap;
+    letter-spacing: 0px;
+    color: $header-color;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.event-info {
+    background: $back-color 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    color: #FFFFFF;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.btn-zoom {
+    font: normal normal bold 24px/27px Asap;
+    letter-spacing: 0px;
+    color: $header-color;
+    opacity: 1;
+    background: #FFFFFF !important;
+    width: 260px;
+    height: 50px;
+    border-radius: 24px;
+    cursor: default !important;
+}
+.btn-zoom:hover {
+    cursor: default !important;
+}
+.footer {
+    background: $footer-color 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.footer-links {
+    font: normal normal normal 0.9rem Roboto;
+    letter-spacing: -0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.footer-links:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.card-img {
+    max-width: 50px !important;
+    width: 100% !important;
+}
+.card {
+    height: 100%;
+}
+.card-dark {
+    height: 100%;
+    background: #3B3B3B;
+}
+.card-name {
+    text-align: left;
+    font: normal normal 900 24px/33px Avenir;
+    letter-spacing: 0px;
+    color: #002442;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.carddark-name {
+    text-align: left;
+    font: normal normal 900 24px/33px Avenir;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.card-hour {
+    text-align: center;
+    font: normal normal medium 24px/32px Asap;
+    letter-spacing: 0px;
+    color: #868686;
+    opacity: 1;
+}
+.carddark-hour {
+    text-align: center;
+    font: normal normal medium 24px/32px Asap;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+.card-button {
+    text-align: left;
+    font: normal normal bold 24px/32px Asap;
+    letter-spacing: 0px;
+    color: #0C3AD0;
+    opacity: 1;
+    cursor: pointer;
+}
+.carddark-arrow {
+    text-align: left;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.card-circle {
+    width: 100px;
+    height: 100px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+}
+.hid{
+    display: none;
+}
